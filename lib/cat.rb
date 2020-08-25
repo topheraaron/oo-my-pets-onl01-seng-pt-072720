@@ -10,7 +10,8 @@ class Cat
   end
 
   def self.all
-    @@all
+    self.all.include
+    self.all.count
   end
 
 end
