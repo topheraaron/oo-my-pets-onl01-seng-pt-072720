@@ -17,10 +17,10 @@ class Owner
   end
 
   def self.count
-    
+
   end
 
   def method_name
-    
+
   end
 end
