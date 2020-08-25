@@ -25,4 +25,9 @@ class Owner
   def self.reset_all
     self.all.clear
   end
+
+  def cats
+    Cat.collect { |all| all }
+
+  end
 end
