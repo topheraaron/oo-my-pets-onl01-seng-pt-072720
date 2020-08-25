@@ -27,7 +27,7 @@ class Owner
   end
 
   def cats
-    Cat.collect { |all| all }
+    Cat.collect { |cats| cats }
 
   end
 end
