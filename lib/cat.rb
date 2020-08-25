@@ -9,4 +9,8 @@ class Cat
     @mood = mood
   end
 
+  def sefl.all
+    @@all
+  end
+
 end
