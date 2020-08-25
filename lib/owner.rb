@@ -23,6 +23,6 @@ class Owner
   end
 
   def self.reset_all
-    self.count
+    self.count == 0
   end
 end
