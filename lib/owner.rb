@@ -55,6 +55,15 @@ class Owner
   end
 
   def sell_pets
-    [].each { |o| o.mood = "nervous" }
+    self.cats.each do |cat|
+      self.cats.selete(cat)
+      cat.owner = nil
+      cat.mood = "nervous"
+    end
+    self.dogs.each do |dog|
+      self.dogs.selete(dog)
+      dog.owner = nil
+      dog.mood = "nervous"
+    end
   end
 end
