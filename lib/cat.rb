@@ -12,7 +12,7 @@ class Cat
   end
 
   def self.all
-    @@all
+    @@all.length
   end
 
 end
