@@ -19,4 +19,8 @@ class Owner
   def self.count
     
   end
+
+  def method_name
+    
+  end
 end
