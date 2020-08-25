@@ -20,7 +20,7 @@ class Owner
 
   end
 
-  def method_name
+  def self.reset_all
 
   end
 end
