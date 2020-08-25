@@ -14,7 +14,7 @@ class Cat
   end
 
   def self.all
-    @@all.length
+    @@all
   end
 
 end
