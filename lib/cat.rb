@@ -11,7 +11,6 @@ class Cat
 
   def self.all
     self.all.include
-    self.all.count
   end
 
 end
