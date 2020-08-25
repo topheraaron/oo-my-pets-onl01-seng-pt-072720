@@ -8,4 +8,8 @@ class Owner
     @species = species
     @say_species = say_species
   end
+
+  def self.all
+    
+  end
 end
